@@ -4,7 +4,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #6cceff;
+    background-color: #ff0000;
     color: white;
     display: table;
 
@@ -56,4 +56,31 @@
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+body {
+
+  background-color: #000000;
+  color: #ffffff;
+
+}
+
+.btn2 {
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ff0000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+
+.btn2:hover {
+  background: #ff0000;
+
+  text-decoration: none;
 }
