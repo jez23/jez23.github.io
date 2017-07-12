@@ -10,7 +10,9 @@ request.onreadystatechange = function () {
         currencyConverter.setRates(rates)
          for (var rate in rates) {
             $("#rates").append("<li><strong>" + rate + ":</strong> " + rates[rate] + "</li>")
-            $("#ratesDropdown").append('<option value="' + rate + '">' + rate + '</option>')
+            $("#ratesDropdown").append('<option value="' + rate + '">' + rateDefinitions[rate] + '</option>')
+
+
          }  
         /* var amount = prompt("how much GBP are you looking to convert?")
          var currency = prompt("what currency would you like to convert to (enter 3 digit code in caps e.g. EUR)?")
@@ -19,7 +21,7 @@ request.onreadystatechange = function () {
 
          setTimeout(function() {
              $("#overlay").hide()
-         }, 2000);
+         }, 200);
     }    
 }
 request.send()
