@@ -13,7 +13,7 @@ console.log(currency)
 
         else {
        
-         $("#result").append(amount + " GBP in " + currency + " is " + convertedAmount.toFixed(2))
+         $("#result").html(amount + " GBP in " + currency + " is " + convertedAmount.toFixed(2))
         }
     } ) 
 
