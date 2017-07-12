@@ -21,7 +21,7 @@ request.onreadystatechange = function () {
 
          setTimeout(function() {
              $("#overlay").hide()
-         }, 200);
+         }, 2000);
     }    
 }
 request.send()
